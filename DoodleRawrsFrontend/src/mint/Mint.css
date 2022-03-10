@@ -1,0 +1,164 @@
+.mint {
+    width: 100%;
+    height: 70vh;
+    min-height: 400px;
+    font-size: 22px;
+    font-weight: 300;
+    z-index: 1;
+    background: url('../img/rainbow.svg') no-repeat;
+    background-size: 100%;
+}
+
+.total {
+    text-align: center;
+    color: white;
+}
+
+.mint-select {
+    width: 300px;
+    z-index: 1;
+}
+
+.info {
+    text-align: center;
+    margin: 0 auto;
+    z-index: 2;
+    color: white;
+}
+
+.progress {
+    width: 300px;
+    height: 35px;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.minter {
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    z-index: 1;
+}
+
+.btn2 {
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: black;
+    border-color: gray;
+    z-index: 1;
+}
+
+.slideshowGIF {
+    width: 300px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+    border: 3px solid gray;
+}
+
+.select2 {
+    max-width: 200px;
+}
+
+.mint-action {
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.mint-button {
+    margin-top: 0px;
+    height: 45px;
+    z-index: 1;
+    background-color: thistle!important;
+    border: none
+}
+
+.socialContainer {
+    width: 100%;
+    padding: 30px;
+    z-index: 1;
+}
+
+.social:hover {
+    text-decoration: none;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    z-index: 1;
+}
+
+.social {
+    transition: 0.7s;
+    text-decoration: none;
+    color: rgba(158, 250, 230)!important;
+    z-index: 1;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+    color: white;
+    background: #F5EAEA;
+    box-shadow: 0px -10px 5px #F5EAEA;
+}
+
+.footerText {
+    padding-top: 30px;
+    padding: 50px;
+    max-width: 1000px;
+    min-width: 350px;
+    text-align: left;
+}
+
+.footerDisc {
+    text-decoration: none;
+    color: white!important;
+}
+
+.footerDisc:hover {
+    text-decoration: none;
+    color: gray;
+    z-index: 1;
+}
+
+.footer-button {
+    background-color: #C7C4E2;
+    border: none;
+    border-radius:5px;
+    height: 50px;
+    font-size: 18px;
+    z-index: 1;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.listItem {
+    font-size: 22px;
+    font-weight: 300;
+    z-index: 1;
+}
+
+.progress-bar {
+    background-color: #C7C4E2!important;
+    z-index: 1;
+}
+
+#walletButton {
+    background-color: thistle!important;
+    border: none;
+    font-size: 18px;
+}
+.egg {
+    width: 200px;
+    display: block;
+    margin: auto;
+}

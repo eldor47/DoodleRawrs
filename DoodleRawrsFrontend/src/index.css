@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'PUSAB';
+  src: local('PUSAB'), url(./PUSAB.otf) format('opentype');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+
+body {
+  margin: 0;
+  font-family: 'PUSAB', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #F5EAEA;
+}

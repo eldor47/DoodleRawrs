@@ -1,0 +1,216 @@
+How the algorithm works -- Each file name is suffixed with a -A -B -C -S.
+If there is not suffix, it gets defaulted to -D
+
+These characters are rarity tiers. The algorithm then assigns weights to each file
+and creates a giant list then picks a random number in that list to pick the trait.
+
+The weights go as follows:
+D - 40%
+C - 30%
+B - 25%
+A - 4%
+S - 1%
+
+However, since tiers are not evenly distributed and there is no limit to how many of 
+one trait can appear, there is a chance an S tier might show up more than 1% of the time.
+
+I went ahead and let the algorithm do its work to decide what gets what.
+
+After a few iterations, I was happy with the generations. Now, this list does not include
+1 of 1s. The process for that included picking 10 random IDs within the first 1k items
+and 8 IDs within the remaining 2k. Then after those were picked, there metaData were manually
+added to the ipfs directory.
+
+Backgrounds:
+01_BG_CosmicPink-B.png
+02_BG_GreenSquares-A.png
+03_BG_Space-S.png
+04_BG_Underwater-A.png
+05_BG_Blue.png
+06_BG_BlueStarsSwirls-B.png
+07_BG_Cloudy-A.png
+08_BG_GoldCosmic-A.png
+09_BG_GradientLightbluePurple-C.png
+10_BG_GradientLightblueYellow-C.png
+11_BG_Green-C.png
+I12_BG_Grey.png
+13_BG_Lightblue.png
+14_BG_Orange.png
+15_BG_OrangeSwirl-S.png
+16_BG_Pink.png
+17_BG_Purple.png
+18_BG_RainbowMesh-S.png
+19_BG_Rainbow-S.png
+20_BG_Yellow.png
+
+Body / Body Color:
+01_Fire Dino_Fire_Body-S.png
+01_Ghost_Blue_Body-A.png
+01_Long Neck_Blue_Body-C.png
+01_Long Neck_Blue_Body.png
+01_Nesse_Glow_Body-S.png
+01_Shark_Blue_Body-S.png
+01_Trex_Blue_Body-C.png
+01_Unknown_Green Horn_Body-S.png
+02_Long Neck_Green_Body-C.png
+02_Long Neck_Green_Body.png
+02_Shark_Green_Body-S.png
+02_Trex_Yellow_Body-01-C.png
+02_Unknown_Blue Horn_Body-S.png
+03_Long Neck_Orange_Body.png
+03_Trex_Purple Orange_Body-S.png
+04_Ghost_Pink_Body-A.png
+04_Long Neck_Pink_Body-C.png
+04_Long Neck_Pink_Body.png
+04_Shark_Gray_Body-S.png
+04_Trex_Pink Purple_Body-A.png
+05_Ghost_Purple_Body-A.png
+05_Long Neck_Purple_Body-C.png
+05_Long Neck_Purple_Body.png
+06_Ghost_OrangeYellow_Body-A.png
+06_Long Neck_Yellow_Body-C.png
+06_Shark_Blue Yellow_Body-S.png
+07_Ghost_PurplePink_Body-A.png
+07_Long Neck_Purple Pink_Body-C.png
+07_Shark_Purple Pink_Body-S.png
+08_Ghost_Blue Green_Body-A.png
+08_Long Neck_Rainbow_Body-A.png
+09_Ghost_White_Body-S.png
+09_Long Neck_Gray Green_Body-C.png
+09_Long Neck_Orange Blue_Body-C.png
+09_Long Neck_Pink Blue_Body-C.png
+09_Long Neck_Yellow Orange Blue_Body-C.png
+
+Within Each Body Are Headgear and Back Gear (not all have headgear and backs)
+
+00_Fire Dino
+Fire Dino Back
+00_Fire Dino\None.png
+00_Fire DinoTop
+01_Head_Baby Rawr-S.png
+02_Head_Rainbow Dragon Wings-S.png
+03_Head_Green Beats-A.png
+04_Head_Purple Beats-A.png
+05_Head_Light Blue Beats-C.png
+06_Head_Yellow Beats-B.png
+07_Head_Crown-A.png
+None.png
+
+Ghost
+
+Ghost Back
+01_Back_Light Blue.png
+02_Back_Light Green.png
+03_Back_Light Pink.png
+04_Back_Light Orange.png
+05_Back_Light Purple.png
+06_Back_Yellow Green.png
+07_Back_Red Purple.png
+08_Back_Blue Purple.png
+09_Back_Yellow Orange.png
+None.png
+
+00_GhostTop
+01_Head_Crown-S.png
+None.png
+
+Long Neck Back
+01_Back_Round Light Blue.png
+01_Back_Spike Light Blue.png
+02_Back_Round Light Green.png
+02_Back_Spike Light Green.png
+03_Back_Round Light Pink.png
+03_Back_Spike Light Pink.png
+04_Back_Round Light Orange.png
+04_Back_Spike Light Orange.png
+05_Back_Round Light Purple.png
+05_Back_Spike Light Purple.png
+06_Back_Round Yellow Green.png
+06_Back_Spike Yellow Green.png
+07_Back_Round Red Purple.png
+07_Back_Spike Red Purple.png
+08_Back_Round Blue Purple.png
+08_Back_Spike Blue Purple.png
+09_Back_Round Yellow Orange.png
+09_Back_Spike Yellow Orange.png
+None.png
+
+Long Neck Top
+01_Head_Alien-S.png
+02_Head_Unicorn-C.png
+03_Head_Blue Halo-S.png
+04_Head_Crown-A.png
+05_Head_Halo-A.png
+06_Head_Air Dragon Wings-S.png
+07_Head_Zappies-A.png
+08_Head_Rainbow Dragon Wings-S.png
+None.png
+
+Nesse
+
+Nesse Back
+None.png
+
+Nesse Top
+01_Head_Glow Halo-S.png
+None.png
+
+Shark
+
+Shark Back
+None.png
+
+Shark Top
+01_Head_Balloon-C.png
+02_Head_Horns-A.png
+03_Head_Postit-B.png
+04_Head_Blue Baloon.png
+05_Head_Remora Family-A.png
+05_Head_Remora-B.png
+None.png
+
+Trex
+
+Trex Back
+None.png
+
+Trex Top
+01_Head_Crown-S.png
+02_Head_Unicorn Rainbow-A.png
+None.png
+
+Unknown
+
+Unknown Back
+None.png
+
+UnknownTop
+01_Head_Horns.png
+
+Mouth:
+01_Mouth_Smiley.png
+02_Mouth_Happy-B.png
+03_Mouth_Startled-B.png
+04_Mouth_Smug.png
+05_Mouth_Lit-A.png
+06_Mouth_Its Just a Metaphor-A.png
+07_Mouth_UwU-B.png
+08_Mouth_Rainbow Barf-S.png
+09_Mouth_Straight-C.png
+
+Blush:
+01_Blush_Pink-C.png
+None.png
+
+Eyes:
+01_Eyes_Doodles.png
+02_Eyes_Happy.png
+03_Eyes_UwU-C.png
+05_Eyes_Heart-B.png
+06_Eyes_Deceased-B.png
+07_Eyes_Holo Lens-S.png
+08_Eyes_Angry-B.png
+09_Eyes_Swirly-C.png
+10_Eyes_Postit Blue-S.png
+11_Eyes_Postit Pink-S.png
+12_Eyes_Postit Yellow-S.png
